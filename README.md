@@ -49,4 +49,4 @@ No manual downloads. No guesswork. Just run it, answer a few questions, and boom
     - Minecraft version (e.g., `1.21.4`)
     - Port number (default: `25565`)
     - Your options such as allowlist and op
-    - Make sure that once it is complete to type stop and start server again to apply allowlist and op settings
+    - **Make sure that once it is complete to type stop and start server again to apply allowlist and op settings**
