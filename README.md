@@ -1,8 +1,8 @@
 # 🚀 Paper Minecraft Server Setup Script
 
-A powerful, interactive script that sets up a fully functional Paper Minecraft server on **Ubuntu** in seconds.
+A powerful, interactive script that sets up a fully functional Paper Minecraft server on **Linux** in seconds.
 
-No manual downloads. No guesswork. Just run it, answer a few questions, and boom — server online or ready to go.
+No manual downloads. No guesswork. Just run it, answer a few questions, and boom — server online or ready to go. With some port forwarding.
 
 ---
 
@@ -23,7 +23,7 @@ No manual downloads. No guesswork. Just run it, answer a few questions, and boom
 
 ## 🛠️ Requirements
 
-- 🐧 Ubuntu (latest)
+- 🐧 A terminal to run it in (Only works on linux based terminals)
 - 🌐 Internet connection
 - 🧠 1 human willing to answer a few questions
 
@@ -33,20 +33,20 @@ No manual downloads. No guesswork. Just run it, answer a few questions, and boom
 
 1. Clone or download the script file:
     ```bash
-    curl -O https://example.com/minecraft-setup.sh
+    curl -O https://github.com/thecoder133/minecraft-server-script/blob/main/Make-Minecraft-Server.sh
     ```
 
 2. Make it executable:
     ```bash
-    chmod +x minecraft-setup.sh
+    chmod +x Make-Minecraft-Server.sh
     ```
 
 3. Run it!
     ```bash
-    ./minecraft-setup.sh
+    ./Make-Minecraft-Server.sh
     ```
 
 4. Answer a few questions:
     - Minecraft version (e.g., `1.21.4`)
     - Port number (default: `25565`)
-    - Your use
+    - Your options such as whitelist and op
