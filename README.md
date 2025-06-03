@@ -32,7 +32,7 @@ No manual downloads. No guesswork. Just run it, answer a few questions, and boom
 
 1. Clone or download the script file:
     ```bash
-    curl -O https://github.com/thecoder133/minecraft-server-script/blob/main/Make-Minecraft-Server.sh
+    curl -O https://raw.githubusercontent.com/thecoder133/minecraft-server-script/main/Make-Minecraft-Server.sh
     ```
 
 2. Make it executable:
