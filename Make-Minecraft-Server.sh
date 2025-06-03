@@ -47,25 +47,7 @@ curl -Lo paper.jar "https://api.papermc.io/v2/projects/paper/versions/$MINECRAFT
 echo "eula=true" > eula.txt
 
 echo -e "${GREEN}🔧 Generating server files...${NC}"
-java -jar paper.jar nogui &
-SERVER_PID=$!
-
-# Wait for files to be created (or timeout after 10s)
-for i in {1..10}; do
-  if [[ -f "server.properties" && -f "eula.txt" ]]; then
-    echo -e "${GREEN}✅ Server files generated.${NC}"
-    kill "$SERVER_PID"
-    wait "$SERVER_PID" 2>/dev/null
-    break
-  fi
-  sleep 1
-done
-
-# Fallback in case the files never appear
-if ! [[ -f "server.properties" && -f "eula.txt" ]]; then
-  echo "⚠️ Timed out waiting for server files. You may need to run the server manually once."
-  kill "$SERVER_PID" 2>/dev/null || true
-fi
+java -jar paper.jar nogui || true
 
 
 if [ -f server.properties ]; then
