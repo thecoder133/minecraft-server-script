@@ -13,7 +13,7 @@ No manual downloads. No guesswork. Just run it, answer a few questions, and boom
 - ✅ Installs **Java 21 and required dependencies**
 - ✅ Asks what **port** you want your server on
 - ✅ Adds **your Minecraft username as OP**
-- ✅ Supports an optional **whitelist**
+- ✅ Supports an optional **allowlist**
 - ✅ Automatically sets up `eula.txt` and `server.properties`
 - ✅ Clean directory creation for each server version
 - ✅ Future-proof: asks for variables instead of hardcoding
@@ -48,4 +48,5 @@ No manual downloads. No guesswork. Just run it, answer a few questions, and boom
 4. Answer a few questions:
     - Minecraft version (e.g., `1.21.4`)
     - Port number (default: `25565`)
-    - Your options such as whitelist and op
+    - Your options such as allowlist and op
+    - Make sure that once it is complete to type stop and start server again to apply allowlist and op settings
