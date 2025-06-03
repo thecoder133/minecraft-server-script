@@ -96,12 +96,6 @@ if [[ "$ENABLE_ALLOWLIST" =~ ^[Yy]$ ]]; then
   } > whitelist.json
 fi
 
-read -p "▶️ Do you want to start the server now? (y/n): " START_NOW
+echo -e "${GREEN}👌 Setup complete! To start your server later, run:${NC}"
+echo "cd $PWD && java -jar paper.jar nogui"
 
-if [[ "$START_NOW" =~ ^[Yy]$ ]]; then
-  echo -e "${GREEN}🚀 Starting server on port $SERVER_PORT...${NC}"
-  java -jar paper.jar nogui
-else
-  echo -e "${GREEN}👌 Setup complete! To start your server later, run:${NC}"
-  echo "cd $PWD && java -jar paper.jar nogui"
-fi
