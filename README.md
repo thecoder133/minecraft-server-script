@@ -12,7 +12,6 @@ No manual downloads. No guesswork. Just run it, answer a few questions, and boom
 - ✅ Downloads the latest **Paper server jar**
 - ✅ Installs **Java 21 and required dependencies**
 - ✅ Asks what **port** you want your server on
-- ✅ Lets you choose to **start the server now or later**
 - ✅ Adds **your Minecraft username as OP**
 - ✅ Supports an optional **whitelist**
 - ✅ Automatically sets up `eula.txt` and `server.properties`
